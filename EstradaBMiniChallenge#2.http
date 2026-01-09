@@ -1,0 +1,11 @@
+@EstradaBMiniChallenge_2_HostAddress = http://localhost:5252
+
+GET {{EstradaBMiniChallenge_2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{EstradaBMiniChallenge_2_HostAddress}}/TwoToFourController
+Accept: application/json
+
+###
