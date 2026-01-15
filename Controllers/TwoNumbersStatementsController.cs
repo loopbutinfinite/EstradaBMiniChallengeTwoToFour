@@ -19,10 +19,10 @@ namespace EstradaBMiniChallenge_2.Controllers
         }
 
         [HttpPost]
-        [Route("Response/{num1}/{num2}")]
-        public string StatementResponses(double num1, double num2)
+        [Route("Response/{input1}/{input2}")]
+        public string StatementResponses(string input1, string input2)
         {
-            return _TwoNumersStatementsServices.ReturnStatementResponses(num1, num2);
+            return _TwoNumersStatementsServices.ReturnStatements(input1, input2);
         }
     }
 }

@@ -7,9 +7,13 @@ namespace EstradaBMiniChallenge_2.Services
 {
     public class TwoNumberSumServices
     {
-        public string TwoNumberSummation(double userNum1, double userNum2)
+        public string SumOfTwoNumbers(string input1, string input2)
         {
-            return $"The sum of both {userNum1} and {userNum2} is {userNum1 + userNum2}.";
+            if(double.TryParse(input1, out double num1) && double.TryParse(input2, out double num2))
+            {
+                return $"The sume of both {num1} and {num2} is equal to {num1 + num2}";
+            }
+            return "Invalid input. Please enter a valid number.";
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstradaBMiniChallenge#2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfedd7f742b089323128b96137d79216cdfc50d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59ab38b0a113a26b6cd7315641b19bddc399b48e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstradaBMiniChallenge#2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstradaBMiniChallenge#2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

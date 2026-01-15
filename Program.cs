@@ -9,17 +9,21 @@ builder.Services.AddScoped<TwoNumbersStatementsServices>();
 builder.Services.AddScoped<TwoInputQuestionsServices>();
 builder.Services.AddScoped<TwoNumberSumServices>();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.MapControllers();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+app.UseAuthorization();
+
+app.MapControllers();
 
 app.UseHttpsRedirection();
 

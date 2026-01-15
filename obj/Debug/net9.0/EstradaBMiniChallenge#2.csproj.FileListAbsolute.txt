@@ -131,6 +131,7 @@
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBMiniChallengeTwoToFour/obj/Debug/net9.0/EstradaBMiniChallenge#2.csproj.CoreCompileInputs.cache
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBMiniChallengeTwoToFour/obj/Debug/net9.0/EstradaBMiniChallenge#2.MvcApplicationPartsAssemblyInfo.cs
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBMiniChallengeTwoToFour/obj/Debug/net9.0/EstradaBMiniChallenge#2.MvcApplicationPartsAssemblyInfo.cache
+/Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBMiniChallengeTwoToFour/obj/Debug/net9.0/EstradaBMiniChallenge#2.sourcelink.json
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBMiniChallengeTwoToFour/obj/Debug/net9.0/rjimswa.dswa.cache.json
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBMiniChallengeTwoToFour/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /Users/brandonestrada/Documents/Code Stack Academy/Level 2/Level 2 Homework Folder/EstradaBMiniChallengeTwoToFour/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
