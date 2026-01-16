@@ -18,7 +18,7 @@ namespace EstradaBMiniChallenge_2.Controllers
             _TwoNumberSumServices = twoNumberSumServices;
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("Summation/{input1}/{input2}")]
         public string NumberSummationinator(string input1, string input2)
         {

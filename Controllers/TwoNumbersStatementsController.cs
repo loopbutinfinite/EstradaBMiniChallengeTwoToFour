@@ -18,7 +18,7 @@ namespace EstradaBMiniChallenge_2.Controllers
             _TwoNumersStatementsServices = twoNumbersStatementsServices;
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("Response/{input1}/{input2}")]
         public string StatementResponses(string input1, string input2)
         {

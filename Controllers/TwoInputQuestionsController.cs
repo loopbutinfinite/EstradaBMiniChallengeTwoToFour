@@ -19,7 +19,7 @@ namespace EstradaBMiniChallenge_2.Controllers
             _TwoInputQuestionsServices = twoInputQuestionsServices;
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("QuestionsResponse/{name}/{time}")]
         public string ResponseToQuestionsinator(string name, string time)
         {
